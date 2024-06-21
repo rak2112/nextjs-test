@@ -1,0 +1,43 @@
+.monster {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .monster__name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .monster__stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  
+  .monster__stat {
+    font-weight: 600;
+  }
+  
+.monster__imageContainer {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .monster__image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  .monster__stat {
+    font-weight: bold;
+  }
+  
+  .monster__statValue {
+    color: #4a4a4a;
+  }
